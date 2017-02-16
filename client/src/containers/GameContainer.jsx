@@ -8,7 +8,7 @@ class GameContainer extends React.Component {
     this.players = ["X", "O"];
     this.turn = this.players[0];
     const board = [
-                  ["","",""],
+                  ["","X",""],
                   ["","",""],
                   ["","",""]
                 ]

@@ -8,7 +8,7 @@ class Tile extends React.Component {
 
   render() {
     return (
-        <td>{this.props.contents}</td>
+        <td className= "Tile" >{this.props.contents}</td>
       )
   }
 }

@@ -9,7 +9,7 @@ class Table extends React.Component {
 
   render() {
     return (
-      <table>
+      <table className= "Table">
       <tbody>
         <tr>
           <Tile contents={this.props.board[0][0]} />
